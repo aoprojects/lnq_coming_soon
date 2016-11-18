@@ -5,15 +5,6 @@
 	text-align: center;
 }
 
-form {
-	text-align: center;
-	margin: 0 auto;
-}
-
-form input {
-	text-align: center;
-}
-
 #agile-sign-up-form .form-control {
 
 }
@@ -24,6 +15,15 @@ form input {
 
 .footer-logo {
 	width: 100px;
+}
+
+form {
+	text-align: center;
+	margin: 0 auto;
+}
+
+form input {
+	text-align: center;
 }
 
 .logo {
