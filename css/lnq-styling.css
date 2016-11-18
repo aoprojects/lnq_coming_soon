@@ -13,8 +13,17 @@
 	color: #5CA3D1 !important;
 }
 
+.blue-lighter {
+	color: #ACD0E7 !important;
+}
+
 .centered {
 	margin: 0 auto;
+}
+
+#coming-soon {
+	position: relative;
+	top: 15px;
 }
 
 .footer-logo {
