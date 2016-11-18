@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, maximum-scale=1">
 
-<title>Homepage</title>
+<title>LNQ Systems | Coming Soon</title>
 <link rel="icon" href="favicon.png" type="image/png">
 <link rel="shortcut icon" href="favicon.ico" type="img/x-icon">
 
@@ -16,6 +16,7 @@
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 <link href="css/animate.css" rel="stylesheet" type="text/css">
+<link href="css/lnq-styling.css" rel="stylesheet" type="text/css">
 
 <!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
 
@@ -41,52 +42,52 @@
 <header class="header" id="header"><!--header-start-->
 	<div class="container">
     	<figure class="logo animated fadeInDown delay-07s">
-        	<a href="#"><img src="img/lnq_logo.png" alt="LNQ Logo 1"></a>	
+        	<a href="#"><img src="img/lnq_logo.png" alt="LNQ Logo 1" id="lnq-logo"></a>	
         </figure>	
         <h1 class="animated fadeInDown delay-07s">Coming Soon</h1>
         <ul class="we-create animated fadeInUp delay-1s">
-        	<li>Sign Up for our Mailing List. <br>
+        	<li>Stay in touch.<br>
                 You may even be invited to the beta.</li>
         </ul>
 
 <!-- begin code for agile crm sign up form input -->
-
-        <link href="https://s3.amazonaws.com/agilecrm/forms/v1/agile-form-min.css" rel="stylesheet">
-        <form class="form-view  theme1" id="agile-form" action="https://lnqsystems.agilecrm.com/formsubmit"  style= "max-width:450px;" method="GET">
+    <section class="" id="agile-sign-up-form">
+     <!--    <link href="https://s3.amazonaws.com/agilecrm/forms/v1/agile-form-min.css" rel="stylesheet"> -->
+        <form class="form-view theme1" id="agile-form" action="https://lnqsystems.agilecrm.com/formsubmit"  style= "max-width:450px;" method="GET">
         <fieldset>
 
         <!-- Form Name -->
         <div>
-        <input type="hidden" id="_agile_form_name" name="_agile_form_name" value="Subscribe Now">
-        <input type="hidden" id="_agile_domain" name="_agile_domain" value="lnqsystems">
-        <input type="hidden" id="_agile_api" name="_agile_api" value="3jcnjt7b30r50o5tdtf7c730jp">
-        <input type="hidden" id="_agile_redirect_url" name="_agile_redirect_url" value="#">
-        <input type="hidden" id="_agile_confirmation_msg" name="_agile_confirmation_msg" value="Great! Thanks for filling out the form.">
-        <input type="hidden" id="_agile_form_id_tags" name="tags" value="">
-             <input type="hidden" id="_agile_form_id" name="_agile_form_id" value="5681034041491456">
+            <input type="hidden" id="_agile_form_name" name="_agile_form_name" value="Subscribe Now">
+            <input type="hidden" id="_agile_domain" name="_agile_domain" value="lnqsystems">
+            <input type="hidden" id="_agile_api" name="_agile_api" value="3jcnjt7b30r50o5tdtf7c730jp">
+            <input type="hidden" id="_agile_redirect_url" name="_agile_redirect_url" value="#">
+            <input type="hidden" id="_agile_confirmation_msg" name="_agile_confirmation_msg" value="Great! Thanks for filling out the form.">
+            <input type="hidden" id="_agile_form_id_tags" name="tags" value="">
+            <input type="hidden" id="_agile_form_id" name="_agile_form_id" value="5681034041491456">
         </div>
         <!-- Text input-->
-        <div class="agile-group">
-          <label class="agile-label hidden" for="agilefield-2">Name</label>
-          <div class="agile-field-xlarge agile-field">
-            <input maxlength="250" id="agilefield-2" name="first_name" type="text" placeholder="Your name" class="agile-height-default">
+        <div class="form-group">
+          <label class="hidden" for="agilefield-2">Name</label>
+          <div>
+            <input maxlength="250" id="agilefield-2" name="first_name" type="text" placeholder="Your name" class="form-control">
           </div>
           <div class="agile-custom-clear"></div>
         </div>
         <!-- Text input-->
-        <div class="agile-group">
-          <label class="agile-label hidden" for="agilefield-1">Email</label>
-          <div class="agile-field-xlarge agile-field">
-            <input maxlength="250" id="agilefield-1" name="email" type="email" placeholder="Your email" class="agile-height-default">
+        <div class="form-group">
+          <label class="hidden" for="agilefield-1">Email</label>
+          <div>
+            <input maxlength="250" id="agilefield-1" name="email" type="email" placeholder="Your email" class="form-control">
           </div>
           <div class="agile-custom-clear"></div>
         </div>
         <!--recaptcha aglignment-->
         <!-- Button -->
-        <div class="agile-group">
-          <label class="agile-label">&nbsp;</label>
+        <div>
+          <label>&nbsp;</label>
           <div class="agile-field">
-            <button type="submit" class="agile-button">LNQ</button>
+            <a type="submit" class="link animated fadeInUp delay-1s">LNQ</a>
             <br><span id="agile-error-msg"></span>
           </div>
         </div>
@@ -96,16 +97,10 @@
         <script type="text/javascript">
         (function(a){var b=a.onload,p=true;isCaptcha=false;if(p){a.onload="function"!=typeof b?function(){try{_agile_load_form_fields()}catch(a){}}:function(){b();try{_agile_load_form_fields()}catch(a){}}};a.document.forms["agile-form"].onsubmit=function(a){a.preventDefault();try{_agile_synch_form_v4()}catch(b){this.submit()}}})(window);
         </script>
-
+    </section><!-- end section for all of agile crm code -->
 
 <!-- end code for agile crm sign up form input -->
 
-
-
-
-
-
-            <a class="link animated fadeInUp delay-1s" href="#">LNQ</a>
     </div>
 </div>
 </header><!--header-end-->
