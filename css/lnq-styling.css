@@ -1,8 +1,21 @@
 /* below is custom css for LNQ squeeze page, not from the bootstrap template */
 
+#agile-sign-up-form {
+	margin: 0 auto;
+	text-align: center;
+}
+
+form {
+	text-align: center;
+	margin: 0 auto;
+}
+
+form input {
+	text-align: center;
+}
+
 #agile-sign-up-form .form-control {
-	/*color: blue;*/
-	background-color: none !important;
+
 }
 
 .centered {
