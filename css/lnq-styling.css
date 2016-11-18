@@ -9,6 +9,10 @@
 
 }
 
+.blue {
+	color: #5CA3D1 !important;
+}
+
 .centered {
 	margin: 0 auto;
 }
@@ -32,3 +36,4 @@ form input {
    position: relative;
    bottom: -22px;
 }
+
