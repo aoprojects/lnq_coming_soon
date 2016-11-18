@@ -719,7 +719,7 @@ border: 2px solid #fff;
 .input-btn{
 	width:175px;
 	height:50px;
-	background:#7cc576;
+	background:#66ADD7;
 	border-radius:4px;
 	color:#ffffff;
 	font-size:14px;
@@ -734,7 +734,7 @@ border: 2px solid #fff;
 
 .input-btn:hover{
 	background: #111;
-	color: #fff;
+	color: black;
 }
 
 /* Footer
@@ -745,8 +745,8 @@ border: 2px solid #fff;
 	padding:35px 0 35px;
 }
 .footer-logo{
-	margin:15px auto 35px;
-	width: 76px;
+	margin:15px auto;
+	/*width: 76px;*/
 }
 .copyright{
 	color:#cccccc;

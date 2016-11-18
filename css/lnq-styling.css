@@ -1,9 +1,21 @@
 /* below is custom css for LNQ squeeze page, not from the bootstrap template */
-.logo {
-   max-width: 200px;
-   margin: 0 auto;
+
+#agile-sign-up-form .form-control {
+	/*color: blue;*/
+	background-color: none !important;
 }
 
 .centered {
 	margin: 0 auto;
+}
+
+.footer-logo {
+	width: 100px;
+}
+
+.logo {
+   max-width: 200px;
+   margin: 0 auto;
+   position: relative;
+   bottom: -22px;
 }
