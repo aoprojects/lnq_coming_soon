@@ -47,10 +47,18 @@ form input {
    position: relative;
    bottom: -22px;
 }
+#team h2 {
+	color: #5CA3D1;
+}
+
+.team-leader-box {
+
+}
 
 .team-leader-box p {
 	padding: 15px;
 }
+
 .team-leader-box span {
 	color: #5CA3D1;
 }
