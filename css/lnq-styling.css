@@ -1,5 +1,7 @@
 /* below is custom css for LNQ squeeze page, not from the bootstrap template */
 
+$blue: #5CA3D1;
+
 #agile-sign-up-form {
 	margin: 0 auto;
 	text-align: center;
@@ -49,3 +51,10 @@ form input {
 .team-leader-box p {
 	padding: 15px;
 }
+.team-leader-box span {
+	color: #5CA3D1;
+}
+
+
+
+
