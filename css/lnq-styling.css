@@ -52,10 +52,11 @@ form input {
 }
 .team-leader-box {		
 	padding-top: 35px;
-	border-top: 1px solid rgba(92,163,209,0.3); /* transparent blue */
+	/*box-shadow: 1px 1px 5px rgba(92,163,209,0.3); /* transparent blue */*/
 }
 .no-border-before {
-	border-top: none !important;
+	box-shadow: none !important;
+	border-top: none;
 }
 .team-leader-box h3 {
 	font-size: 18px;
