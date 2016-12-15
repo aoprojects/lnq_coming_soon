@@ -51,8 +51,11 @@ form input {
 	color: #5CA3D1;
 }
 
-.team-leader-box {
-
+.team-leader-box {		
+	border-top: 1px solid #5CA3D1; /* blue */
+}
+.team-leader-box:first-child {
+	border-top: none !important;
 }
 .team-leader-box h3 {
 	font-size: 18px;
@@ -78,6 +81,7 @@ form input {
 
 	.team-leader-box p {
 		font-size: 15px;
+		padding-top: 25px;
 	}
 
 }/* for xs devices */
