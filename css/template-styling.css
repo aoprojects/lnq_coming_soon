@@ -57,7 +57,7 @@ a, a:hover, a:active{ outline:0px !important}
 body {
 	background:#fff;
 	font-family: 'Open Sans', sans-serif;
-	font-size:14px;
+	/*font-size:14px;*/
 	font-weight:normal;
 	color:#888888;
 	margin:0;

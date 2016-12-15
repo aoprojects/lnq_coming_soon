@@ -63,6 +63,27 @@ form input {
 	color: #5CA3D1;
 }
 
+/* begin media query specific styling below */
+
+@media only screen and (max-width: 767px) {
+	.team-leader-box p {
+		font-size: 15px;
+	}
+
+}/* for xs devices */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.team-leader-box p {
+		font-size: 16px;
+	}
+}/* for sm devices */
+
+@media only screen and (min-width: 992px) {
+	.team-leader-box p {
+		font-size: 16px;
+	}
+}/* for md and lg devices */
+
 
 
 
