@@ -75,7 +75,7 @@ h2{
 h3{
 	font-family: 'Montserrat', sans-serif;
 	color:#222222;
-	font-size:16px;
+	/*font-size:16px;*/
 	margin:0 0 5px 0;
 	text-transform:uppercase;
 	font-weight:400;
@@ -523,10 +523,6 @@ border: 2px solid #fff;
 	
 }
 
-.team-leader-box * {
-	/*width:50%;*/
-} 
-/* I decided to make these elements into bootstrap columns instead of limit them here */
 .team-leader-shadow{
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;

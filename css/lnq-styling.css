@@ -54,6 +54,9 @@ form input {
 .team-leader-box {
 
 }
+.team-leader-box h3 {
+	font-size: 18px;
+}
 
 .team-leader-box p {
 	padding: 15px;
@@ -61,6 +64,7 @@ form input {
 
 .team-leader-box span {
 	color: #5CA3D1;
+	font-size: 16px;
 }
 
 /* begin media query specific styling below */
@@ -68,8 +72,9 @@ form input {
 @media only screen and (max-width: 767px) {
 	.team-leader-box {
 		width: 100hw;
+		padding-bottom: 15px;
+		padding-top: 15px;
 	}
-
 
 	.team-leader-box p {
 		font-size: 15px;
