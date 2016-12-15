@@ -41,6 +41,11 @@ form input {
 	text-align: center;
 }
 
+form input:active {
+	background: transparent;
+	box-shadow: none;
+}
+
 .logo {
    max-width: 200px;
    margin: 0 auto;
