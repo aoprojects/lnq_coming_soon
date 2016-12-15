@@ -50,21 +50,19 @@ form input {
 #team h2 {
 	color: #5CA3D1;
 }
-
 .team-leader-box {		
-	border-top: 1px solid #5CA3D1; /* blue */
+	padding-top: 35px;
+	border-top: 1px solid rgba(92,163,209,0.3); /* transparent blue */
 }
-.team-leader-box:first-child {
+.no-border-before {
 	border-top: none !important;
 }
 .team-leader-box h3 {
 	font-size: 18px;
 }
-
 .team-leader-box p {
 	padding: 15px;
 }
-
 .team-leader-box span {
 	color: #5CA3D1;
 	font-size: 16px;
@@ -75,8 +73,8 @@ form input {
 @media only screen and (max-width: 767px) {
 	.team-leader-box {
 		width: 100hw;
+		/*padding-top: 15px;*/
 		padding-bottom: 15px;
-		padding-top: 15px;
 	}
 
 	.team-leader-box p {
