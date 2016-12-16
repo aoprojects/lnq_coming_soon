@@ -52,6 +52,16 @@ form input {
 form input:active {
 	background: transparent;
 	box-shadow: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+form input:focus {
+	background: transparent;
+	box-shadow: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
 }
 
 input[type=submit]:focus {
