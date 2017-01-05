@@ -82,6 +82,10 @@ input:focus, input:active {
    position: relative;
    bottom: -22px;
 }
+.team .row p{
+	text-align: left;
+	text-indent: 35px;
+}
 #team h2 {
 	color: #5CA3D1;
 }
