@@ -60,11 +60,15 @@ form input:active {
 }
 form input:focus {
 	background: transparent;
-	box-shadow: none;
-	border-top: none;
-	border-left: none;
-	border-right: none;
+	box-shadow: none !important;
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
 	outline-width: 0 !important;
+}
+form input:hover {
+	box-shadow: none !important;
+	/*border: none !important;*/
 }
 
 input[type=submit]:focus {
