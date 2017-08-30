@@ -136,7 +136,8 @@ input:focus, input:active {
 
 @media only screen and (min-width: 768px) {
 	/*below begins temporary styling, while we don't have headshots. TODO */
-	.team-leader-box p {
+	/* I believe that we are not puttng more than one person on a column, so are not using the following margins*/
+/*	.team-leader-box p {
 		font-size: 16px;
 	}
 	.leader-1 {
@@ -153,7 +154,7 @@ input:focus, input:active {
 	}
 	.leader-5 {
 		margin-top: 120px;
-	}
+	}*/
 } /* for tablet and all larger */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
