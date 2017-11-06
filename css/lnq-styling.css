@@ -131,11 +131,10 @@ input:focus, input:active {
 		font-size: 15px;
 		padding-top: 25px;
 	}
-
 }/* for xs devices */
 
-@media only screen and (min-width: 768px) {
-	/*below begins temporary styling, while we don't have headshots. TODO */
+@media only screen and (min-width: 768px) {}
+	/*below begins temporary styling, while we don't have headshots. TODO this was in the above media query. */
 	/* I believe that we are not puttng more than one person on a column, so are not using the following margins*/
 /*	.team-leader-box p {
 		font-size: 16px;
@@ -144,7 +143,7 @@ input:focus, input:active {
 		margin-top: 140px;
 	}
 	.leader-2 {
-		margin-top: 100px;
+margin would be 100px here 
 	}
 	.leader-3 {
 		margin-top: 180px;
@@ -155,7 +154,7 @@ input:focus, input:active {
 	.leader-5 {
 		margin-top: 120px;
 	}*/
-} /* for tablet and all larger */
+	 /* for tablet and all larger */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
